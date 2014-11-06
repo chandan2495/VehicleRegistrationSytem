@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Complaint Form</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body><center>
+        <h1>Vehicle Complaint Form</h1>
+        <hr><hr>
+        <form action="stolen.jsp" method="post">
+            <table>
+                <tr>
+                    <td>Enter Your Vehicle Registration Number:</td><td><input type="text" name="registerno"/></td>
+                </tr>
+                <tr>
+                    <td>Stolen Date(in  YYYY/MM/DD fomat: )</td><td><input type="text" name="date"/></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"/></td><td><input type='reset' value="Reset"/></td>
+                </tr>
+            </table>
+            <p>If not registered: <a href="newreg.html">new user</a><br><br>
+                Forget register number: <a href="forgot.html">Click Here</a></p>
+        </form>
+    </center>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>New Registration</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+    <center><h1>New Vehicle Registration form</h1></center>
+        <hr><hr>
+        <center><h3>Enter vehicle Details</h3>
+        <form action="register.jsp" method="POST">
+            
+            <table>
+                <tr>
+                    <td>Vehicle Number:</td><td><input type='text' name="vehicleno"/></td>
+                </tr>
+                <tr>
+                    <td>Enter number of wheels:</td><td><input type='text' name="wheels"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vehicle type Model:</td><td><input type='text' name="model"/></td>
+                </tr>
+                <tr>
+                    <td>RTO number </td><td><input type='text' name="rtono"/>
+                    </td>
+                </tr>
+                <tr><td>Enter Owner's Details</td></tr>
+                <tr>
+                    <td>Owner's Name:</td><td><input type='text' name="ownername"/></td>
+                </tr>
+                <tr>
+                    <td>Owner's E-maid id:</td><td><input type='text' name="owneremail"/></td>
+                </tr>
+                <tr>
+                    <td>Owner's phone number:</td><td><input type='text' name="ownerno"/></td>
+                </tr>
+                <tr>
+                    <td>Owner's Address:</td><td><textarea name="owneraddress"></textarea></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit" value="Submit"/></td><td><input type='reset' value="Reset"/></td>
+                </tr>
+                
+            </table>
+            </form>
+    </body>
+</html>
